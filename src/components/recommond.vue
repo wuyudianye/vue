@@ -35,7 +35,7 @@ export default {
         vSwiper,
     },
     created () {
-         this.axios.get('/api/recommond-list')
+         this.axios.get('/recommond-list')
             .then (res => {    
                 this.$store.state.recommondList = res.data.list;
          })

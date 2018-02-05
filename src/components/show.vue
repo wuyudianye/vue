@@ -25,9 +25,7 @@
           <span class="right">当前<span class="totalNum">5849</span>个主播  ></span>
       </p>
    
-      <transition name="fade">
-            <div class="mask" v-show="isAbout"></div>                       
-      </transition>
+      
     
       <div class="show-content">
         <div class="showItem col-xs-6" @click="showDetail(item.archive.aid)" v-for="item in showList" key="item.archive.aid">
