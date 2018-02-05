@@ -117,9 +117,9 @@ export default {
                     member: {
                         mid: "194205",
                         uname: "honeyvickys",
-                        sex: "女",
+                        sex: "男",
                         sign: "喜欢看影视、玩游戏，对动漫非常感兴趣一位绅士。新浪微博：@怪蜀黍桃太郎",
-                        avatar: "http://i0.hdslb.com/bfs/face/2c3a364cf409a85b4c651a6afbf6ffe22208c654.jpg",
+                        avatar: "http://i1.hdslb.com/bfs/face/e325a3481f6fdf9519f30018a43d567b5641e516.jpg",
                         rank: "10000",
                         DisplayRank: "0",
                         level_info: {

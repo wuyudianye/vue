@@ -2,8 +2,8 @@
     <div class="headpage">
         <div class="b-header" v-if="($route.name !== 'showPlay' )  && ($route.name !== 'dramaPlay') && ($route.name !== 'recommondPlay') && ($route.name !== 'searchList')" :style="{backgroundColor: skinColor}">
             <i class="fa fa-bars" aria-hidden="true" @click="toggleSidebar"></i>
-            <img src="http://i0.hdslb.com/bfs/archive/8e548b4e1715398d2500dc015043d7182c43c789.png" @click="toggleSidebar" alt="" class="b-avatar">
-            <span class="b-username" @click="toggleSidebar">honeyvickys</span>
+            <img src="http://i1.hdslb.com/bfs/face/e325a3481f6fdf9519f30018a43d567b5641e516.jpg" @click="toggleSidebar" alt="" class="b-avatar">
+            <span class="b-username" @click="toggleSidebar">AAAAAAAAAA</span>
             <div class="right">
                 <i class="fa fa-gamepad" aria-hidden="true"></i>
                 <i class="fa fa-download" aria-hidden="true"></i>  
@@ -38,7 +38,7 @@
         <transition name="fold">
             <div class="b-sidebar" v-if="sidebarShow">
                 <div class="b-user" :style="{backgroundColor: skinColor}">
-                    <img src="http://i0.hdslb.com/bfs/face/2c3a364cf409a85b4c651a6afbf6ffe22208c654.jpg" alt="">                    
+                    <img src="http://i1.hdslb.com/bfs/face/e325a3481f6fdf9519f30018a43d567b5641e516.jpg" alt="">                    
                     <div class="icon" style="color: white">
                         <i class="fa fa-envelope" aria-hidden="true"></i>   
                         <i class="fa fa-moon-o" aria-hidden="true" @click="changeColor('black')" v-if="isShowSkin"></i>
