@@ -1,32 +1,16 @@
-# mock-bilibili
+# 项目截图
 
-> 
+<img src="https://github.com/blockmood/bilibili/blob/master/static/1.gif" width=300 /><img src="https://github.com/blockmood/bilibili/blob/master/static/2.gif" width=300 /><img src="https://github.com/blockmood/bilibili/blob/master/static/3.gif" width=300 /><img src="https://github.com/blockmood/bilibili/blob/master/static/4.gif" width=300 />
 
-## 项目描述
+# 项目预览
 
-### 技术架构
+<img src="https://github.com/blockmood/vue-bilibili/blob/master/static/wecat.png" width=150 />
 
-   * 用mint-ui和font-awesome
-   * 使用了Vue.js+vuex+vue-router做单页应用
+# 说明
 
+闲来没事做的这个，还是比较简单的，有些接口b站不支持，所以我就没做，大部分功能都实现了。
 
-  
-### 功能
-
-  * 模仿的bilibili首页
-  * 首页视频点入的详情页
-  * 评论模块，不通过服务器，给页面添加评论
- 
-  
-### 项目展示
-![项目](./src/assets/image/show.gif)
-
-### 在线预览
-
-
-
-
-## Build Setup
+# Build Setup
 
 ``` bash
 # install dependencies
@@ -40,5 +24,15 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
 ```
 
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
